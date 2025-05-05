@@ -1,193 +1,65 @@
+/* Global Styles */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    overflow-x: hidden;
-    width: 100vw;
-    height: auto;
-    font-family: 'Sarabun', sans-serif;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  width: 100vw;
+  height: auto;
 }
 
+/* HEADER */
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-    background: linear-gradient(to bottom, #FDCAAB 0%, #FEDFD1 18%, #FFF4EE 100%);
-    padding: 20px;
-    padding-left: 40px;
-    width: 100vw; 
-    box-sizing: border-box;
-    overflow-x: hidden; 
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(to bottom, #FDCAAB 0%, #FEDFD1 18%, #FFF4EE 100%);
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 93px; 
-    height: auto;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-h1 {
-    font-family: 'Sarabun', sans-serif;
-    font-weight: bold; 
-    font-size: 24px;
-    line-height: 31px; 
-    width: 239px;
-}
-
-.head1 {
-    display: flex; 
-    padding-left: 19vmax;
-}
-
-.head1 ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.head1 li {
-  margin: 0 30px;
-  padding-right: 0; 
-}
-
-.head1 a {
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
-    font-size: 23px;
-}
-
-.head1 a:hover {
-    text-decoration: underline;
-}
-
-/*END SA HEADER BOOM SHAKALAKA*/
-
-.footer {
-  background: #ffeddd;
-  height: 285px;
-  position: relative;
-  overflow: hidden;
-}
-
-.footprint{
-  width: 326px;
-  height: 197px;
-  position: absolute;
-  left: 0px;
-  top: 91px;
-  object-fit: cover;
-}
-.pawcon {
-  border-radius: 100px;
-  width: 45px;
-  height: 45px;
-  position: absolute;
-  left: 384px;
-  top: 80px;
-  object-fit: cover;
-}
-
-.paws {
-  color: #6a9c9a;
-  text-align: left;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 100px;
-  position: absolute;
-  left: 439px;
-  top: 70px;
-  width: 89px;
-  height: 63px;
   display: flex;
   align-items: center;
 }
 
-.footertable {
-  width: 52%;
-  border-collapse: collapse;
-  text-align: left;
-  table-layout: fixed;
-  margin-left: 42%;
-  position: absolute;
-  border: none; 
-  margin-top: 15px;
+.logo img {
+  width: 93px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
-.footertable th, .footertable td {
-  padding: 5px;
-  border: none;
-  font-family: 'Sarabun', sans-serif; 
-  font-size: 18px; 
-}
-
-.footertable th {
-  background-color: #f4f4f4;
+h1 {
+  font-family: 'Sarabun', sans-serif;
   font-weight: bold;
-  color: #6A9C9A; 
-  font-size: 25px; 
-  background-color:#ffeddd;;
+  font-size: 24px;
+  line-height: 31px;
+  width: 239px;
 }
 
-.insidet {
-  color: #4a4e69;
-  text-align: left;
-  font-size: 18px;
-  font-weight: 400;
+.head1 ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
-.footertable a {
-  text-decoration: none; 
+.head1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: 23px;
 }
 
-.footertable a:hover {
-  text-decoration: underline; 
+.head1 a:hover {
+  text-decoration: underline;
 }
 
-.footertxt {
-  color: #e8a687;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: 566px;
-  left: 622.34px;
-  width: 400px;
-  top: 245px;
-  height: 51.66px;
-}
-
-.icon {
-  width: 18px;
-  height: 18px;
-  object-fit: cover;
-  border-radius: 100%;
-}
-
-.motto {
-  color: #e8a687;
-  text-align: center;
-  font-size: 10px;
-  font-weight: 700;
-  font-style: italic;
-  position: absolute;
-  left: 366px;
-  top: 135px;
-  width: 176px;
-  height: 47px;
-  margin-left: 16px;
-}
-
-/*END SA FOOTER BOOM SHAKALAKA*/
-
+/* CONTAINER */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -217,19 +89,18 @@ h1 {
   font-size: 17px;
   color: #333;
   margin-bottom: 25px;
-  justify-content: left;
   width: 550px;
 }
 
 .description2 {
-    font-size: 16px;
-    font-family: "Sarabun";
-    font-weight: 700;
-    color: black;
-    width: 400px;
-    height: 21px;
-    padding-top: 5px;
-    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-family: "Sarabun";
+  font-weight: 700;
+  color: black;
+  width: 400px;
+  height: 21px;
+  padding-top: 5px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .explore-button {
@@ -263,14 +134,12 @@ h1 {
   border: none;
 }
 
-/*END SA CONTAINER BOOM SHAKALAKA*/
-
-.transition{
-  width: 100vw; 
+/* TRANSITION */
+.transition {
+  width: 100vw;
 }
 
-/*END SA TRANSITION BOOM SHAKALAKA*/
-
+/* CARDS */
 .card-container {
   display: flex;
   gap: 20px;
@@ -309,7 +178,7 @@ h1 {
 }
 
 .card:hover .card-text {
-  background-color: #F7D8CA; 
+  background-color: #F7D8CA;
 }
 
 .card h3 {
@@ -336,15 +205,103 @@ h1 {
   color: #C26A5A;
 }
 
-/*END SA UNOD BOOM SHAKALAKA*/
-
-.transition2{
+.transition2 {
   margin-top: 3vw;
-  width: 70vw; 
+  width: 70vw;
   margin-bottom: 1vw;
 }
-  
 
+/* FOOTER */
+.footer {
+  background: #ffeddd;
+  padding: 40px;
+  color: #4a4e69;
+  font-family: 'Sarabun', sans-serif;
+}
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.footer-branding {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 
+.footprint {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.branding-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.pawcon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.paws {
+  font-size: 40px;
+  font-weight: 600;
+  color: #6a9c9a;
+}
+
+.motto {
+  font-size: 14px;
+  font-style: italic;
+  color: #e8a687;
+  font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-links div h3 {
+  color: #6A9C9A;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.insidet {
+  color: #4a4e69;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.insidet:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #e8a687;
+}
+
+.social-icons img.icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+  border-radius: 100%;
+  object-fit: cover;
+}
