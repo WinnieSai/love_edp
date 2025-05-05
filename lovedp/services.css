@@ -5,12 +5,7 @@ body {
     overflow-x: hidden;
     width: 100vw;
     height: auto;
-}
-
-.wrapper {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+    font-family: 'Sarabun', sans-serif;
 }
 
 header {
@@ -38,64 +33,51 @@ header {
     margin-right: 15px;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Sarabun', sans-serif;
-}
-
 h1 {
+    font-family: 'Sarabun', sans-serif;
     font-weight: bold; 
     font-size: 24px;
     line-height: 31px; 
     width: 239px;
 }
 
-p, a {
-    font-weight: 400; 
-}
-
-nav {
+.head1 {
     display: flex; 
     padding-left: 19vmax;
 }
 
-nav ul {
+.head1 ul {
     list-style: none;
     display: flex;
-    flex-wrap: nowrap; 
-    justify-content: space-between; 
     margin: 0;
     padding: 0;
 }
 
-nav li {
-    margin: 0 30px;
-    padding-right: 0; 
+.head1 li {
+  margin: 0 30px;
+  padding-right: 0; 
 }
 
-nav a {
+.head1 a {
     text-decoration: none;
     color: black;
     font-weight: normal;
     font-size: 23px;
-    white-space: nowrap; 
 }
 
-nav a:hover {
+.head1 a:hover {
     text-decoration: underline;
 }
 
 /*END SA HEADER BOOM SHAKALAKA*/
 
-.footer,
-.footer * {
-  box-sizing: border-box;
-}
 .footer {
   background: #ffeddd;
   height: 285px;
   position: relative;
   overflow: hidden;
 }
+
 .footprint{
   width: 326px;
   height: 197px;
@@ -103,7 +85,6 @@ nav a:hover {
   left: 0px;
   top: 91px;
   object-fit: cover;
-  aspect-ratio: 326/197;
 }
 .pawcon {
   border-radius: 100px;
@@ -113,16 +94,14 @@ nav a:hover {
   left: 384px;
   top: 80px;
   object-fit: cover;
-  aspect-ratio: 1;
 }
+
 .paws {
   color: #6a9c9a;
   text-align: left;
-  font-family: "Sarabun", sans-serif;
   font-size: 40px;
   font-weight: 600;
   line-height: 100px;
-  letter-spacing: 0.02em;
   position: absolute;
   left: 439px;
   top: 70px;
@@ -130,7 +109,6 @@ nav a:hover {
   height: 63px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .footertable {
@@ -144,11 +122,9 @@ nav a:hover {
   margin-top: 15px;
 }
 
-.footertable th,
-.footertable td {
+.footertable th, .footertable td {
   padding: 5px;
   border: none;
-  word-wrap: break-word;
   font-family: 'Sarabun', sans-serif; 
   font-size: 18px; 
 }
@@ -157,24 +133,15 @@ nav a:hover {
   background-color: #f4f4f4;
   font-weight: bold;
   color: #6A9C9A; 
-  font-family: 'Sarabun', sans-serif; 
   font-size: 25px; 
   background-color:#ffeddd;;
 }
 
-
 .insidet {
   color: #4a4e69;
   text-align: left;
-  font-family: "Sarabun-Regular", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  right: 28.06%;
-  left: 64.65%;
-  width: 7.29%;
-  bottom: 66.52%;
-  top: 26.32%;
-  height: 7.16%;
 }
 
 .footertable a {
@@ -188,45 +155,34 @@ nav a:hover {
 .footertxt {
   color: #e8a687;
   text-align: center;
-  font-family: "-", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
-  right: 39.31%;
-  left: 43.19%;
-  width: 17.5%;
-  bottom: 6.56%;
-  top: 88.07%;
-  height: 5.37%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  right: 566px;
+  left: 622.34px;
+  width: 400px;
+  top: 245px;
+  height: 51.66px;
 }
+
 .icon {
   width: 18px;
   height: 18px;
-  left: 1039px;
-  top: 250px;
   object-fit: cover;
-  position: absolute;
-  aspect-ratio: 1;
   border-radius: 100%;
 }
+
 .motto {
   color: #e8a687;
   text-align: center;
-  font-family: "Sarabun-bolditalic", sans-serif;
   font-size: 10px;
   font-weight: 700;
   font-style: italic;
   position: absolute;
   left: 366px;
-  top: 128px;
+  top: 135px;
   width: 176px;
   height: 47px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-left: 16px;
 }
 
@@ -254,6 +210,7 @@ nav a:hover {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 25px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .description {
@@ -268,10 +225,11 @@ nav a:hover {
     font-size: 16px;
     font-family: "Sarabun";
     font-weight: 700;
-    color: rgba(0, 0, 0, 1);
+    color: black;
     width: 400px;
     height: 21px;
     padding-top: 5px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .explore-button {
@@ -283,6 +241,7 @@ nav a:hover {
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
 }
 
@@ -294,10 +253,11 @@ nav a:hover {
 .right-column {
   flex: 1 1 300px;
   max-width: 60%;
+  padding-left: 70px;
 }
 
 .right-column img {
-  width: 90%;
+  width: 80%;
   height: 320px;
   border-radius: 10px;
   border: none;
@@ -345,7 +305,7 @@ nav a:hover {
   height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover .card-text {
