@@ -126,13 +126,14 @@ body {
     text-align: center;
     box-sizing: border-box;
     padding: auto;
-    margin-left: 3.4rem;
+    margin-left:0.5rem;
   }
 
 .fire { 
     background-color: white;
     color: black;
     font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.1rem;
@@ -142,7 +143,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    width: 10%; 
+    width: 7rem;
     padding-bottom: 0.4rem;
 }
 
@@ -155,6 +156,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.1rem;
@@ -164,7 +166,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    width: 5%; 
+    width: 3rem; 
     padding-bottom: 0.4rem;
 }
 
@@ -177,6 +179,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.1rem;
@@ -186,7 +189,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    width: 8%; 
+    width: 7rem; 
     padding-bottom: 0.4rem;
 }
 
@@ -199,6 +202,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.1rem;
@@ -208,7 +212,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    width: 7%; 
+    width: 6rem; 
     padding-bottom: 0.4rem;
 }
 
@@ -221,6 +225,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.1rem;
@@ -230,7 +235,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    width: 7%; 
+    width: 5rem; 
     padding-bottom: 0.4rem;
 }
 
@@ -308,6 +313,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.1rem;
@@ -318,7 +324,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
     justify-content: center;
-    width: 2%; 
+    width: 2rem; 
     padding-bottom: 0.4rem;
 }
 
